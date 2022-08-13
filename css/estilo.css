@@ -1,0 +1,251 @@
+
+
+/*cabeçalho tamanho padrão */
+
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+
+}
+
+nav.navbar-conf {
+	background: rgba(86,84,84,0.6);
+}
+
+#divisor {
+	width: 1px;
+	background: white;
+}
+
+.marginrow {
+	margin: 0 auto;
+}
+
+.backgroundsection2 {
+	background: #0A0A0A;
+}
+
+video {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 550;
+	letter-spacing: -0.04em;
+	color: white;
+}
+
+
+p {
+	color: #C1BEBE;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: white;
+}
+
+.fundoperzi {
+	background: url(../imagens/semtitulo.png) no-repeat;
+	background-size: 1000px;
+}
+
+.box-green {
+	position: absolute;
+}
+
+.ajuste2 {
+	margin: 280px;
+}
+
+.marginfooter {
+	margin-left: 80px;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+.marginfooter {
+	margin-left: 15px;
+}
+
+
+/*cabeçalho*/
+	#movimentarBurger {
+		margin-right: 10px;
+
+	}
+
+	.navbar-expand-md .navbar-nav li {
+		margin: 0 auto;
+		margin-bottom: 3px;
+
+	}
+
+
+/*ajuste video*/
+	video.ajustarVideo {
+
+		margin-top: 118px;
+	}
+
+
+
+	div a img {
+		margin-top: 15px;
+	}
+
+	div a img.aj {
+		margin-left: 0px;
+	}
+
+
+	
+	button {
+		margin-right: 150px;
+	}
+
+	.marginboton1 {
+	margin-left: 150px;
+}
+
+
+.marginboton2 {
+	margin-left: 165px;
+}
+
+
+
+	
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+/*cabeçalho*/
+
+
+.marginfooter {
+	margin-left: 40px;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+	#movimentarBurger {
+		margin-right: 10px;
+
+	}
+
+	.navbar-expand-md .navbar-nav li {
+		margin: 0 auto;
+		margin-bottom: 3px;
+
+	}
+
+
+	div a img {
+		margin-top: 15px;
+	}
+
+	div a img.aj {
+		margin-left: 10px;
+	}
+
+
+	.marginboton1 {
+	margin-left: 250px;
+}
+
+
+.marginboton2 {
+	margin-left: 265px;
+}
+
+
+
+	
+
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.quadros {
+		padding-top: 100px;
+	}
+
+
+		.marginboton1 {
+	margin-left: 100px;
+}
+
+
+.marginboton2 {
+	margin-left: 115px;
+}
+
+div a img.aj {
+		height: 260px;
+	}
+
+
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.marginboton1 {
+	margin-left: 140px;
+}
+
+
+.marginboton2 {
+	margin-left: 150px;
+}
+
+div a img.aj {
+		height: 350px;
+	}
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	.alinhamentobotao {
+		display: flex;
+		align-self: center;
+	}
+
+		.marginboton1 {
+	margin-left: 260px;
+}
+
+
+.marginboton2 {
+	margin-left: 275px;
+}
+
+div a img.aj {
+		height: 420px;
+	}
+	
+}
+
